@@ -1,0 +1,28 @@
+# Gradle / builds
+.gradle/
+**/build/
+captures/
+
+# IDE (Android Studio / IntelliJ)
+.idea/
+*.iml
+
+# OS junk
+.DS_Store
+
+# Local machine config (never commit)
+local.properties
+
+# Native build outputs
+.externalNativeBuild/
+.cxx/
+
+# Keystores (if you ever add them)
+*.jks
+*.keystore
+
+# APK/AAB artifacts
+*.apk
+*.aab
+app/release/
+app/debug/
