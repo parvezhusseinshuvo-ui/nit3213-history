@@ -10,7 +10,7 @@ Android app that:
 Tech: Kotlin, ViewBinding, RecyclerView, Hilt (DI), Retrofit/OkHttp, Coroutines, JUnit tests.
 
 ## API
-Base: `https://nit3213api.onrender.com/`  
+git clone [https://github.com/parvezhusseinshuvo-ui/nit3213-history.git]
 - **POST** `/br/auth`
   - Body: `{"username":"MD Parvez Hussain","password":"8131988"}`
   - Sample success: `{"keypass":"history"}`
@@ -44,3 +44,7 @@ Run: Gradle → `:app:testDebugUnitTest` or right-click the test classes and Run
 - Internet permission enabled.
 - Hilt entry point: `NIT3213App` (`@HiltAndroidApp`).
 - Base URL in `NetworkModule.kt`: `https://nit3213api.onrender.com/`.
+
+## Credits
+-API provided by NIT3213 Assessment.
+-Developed by Parvez (S8131988) for submission.
